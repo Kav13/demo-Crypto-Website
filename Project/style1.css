@@ -1,0 +1,40 @@
+*{
+    box-sizing: border border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px 30px;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.form1{
+    background-color: #43435b;
+    padding: 5px 20px 15px 20px;
+    border: 3px solid #cbf589;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    width: 98%;
+    padding: 12px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.form_head{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: aquamarine;
+    color: rgb(73, 73, 73);
+    padding: 12px 4px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: aqua;
+}
